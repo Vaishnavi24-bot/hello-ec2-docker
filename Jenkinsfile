@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Vaishnavi24-bot/hello-ec2-docker.git'
+                checkout scm
             }
         }
 
