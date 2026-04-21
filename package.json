@@ -1,0 +1,12 @@
+{
+  "name": "hello-ec2-docker",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for Docker + Jenkins CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
